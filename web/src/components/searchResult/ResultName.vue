@@ -18,7 +18,7 @@
               <th scope="col" style="width: 25%"><u>Description</u></th>
               <th scope="col" style="width: 15%"><u>Website</u></th> 
               <th scope="col" style="width: 10%"><u>Language</u></th>
-              <th scope="col" style="width: 14%"><u>Remark</u></th>                                   
+              <th scope="col" style="width: 14%"><u>Genre</u></th>                                   
             </font></tr>
             </thead>
             <tbody>
@@ -31,7 +31,7 @@
                   <td>{{ game.description }}</td>
                   <td>{{ game.website }}</td>
                   <td>{{ game.language }}</td>
-                  <td>{{ game.remark }}</td>                    
+                  <td>{{ game.genre }}</td>                    
                 </font></tr>
             </tbody>
         </table>

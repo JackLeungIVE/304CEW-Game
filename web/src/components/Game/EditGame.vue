@@ -64,8 +64,8 @@
        <div class="row">          
         <div class="col-md-12">
           <div class="form-group">
-            <label>Remark:</label>
-            <input type="text" class="form-control" v-model="game.remark" placeholder="Enter remark">
+            <label>Genre:</label>
+            <input type="text" class="form-control" v-model="game.genre" placeholder="Enter genre">
           </div>
         </div>
         </div><br />

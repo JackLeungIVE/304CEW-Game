@@ -8,7 +8,7 @@ var gameSchema = mongoose.Schema({
   description: String,
   mode: String,
   language: String,
-  remark: String
+  genre: String
 })
 
 var gameModel = { Game: mongoose.model('Game', gameSchema) }

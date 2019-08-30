@@ -1,12 +1,11 @@
 const cmodel = require('../db/gamedb.js')
-
+//list
 const Games = (req, res) => {
   cmodel.Game.find({}, (err, games) => {
     if (err) console.log(err)
     res.send(games)
   }).sort({ 'platform': -1 })
 }
-
 const addGame = (req, res) => {
   let game = new cmodel.Game(req.body)
   game.save()
@@ -49,7 +48,7 @@ const updateGame = (req, res) => {
       game.description = req.body.description
       game.mode = req.body.mode
       game.language = req.body.language
-      game.remark = req.body.remark
+      game.genre = req.body.genre
       game.save().then(() => {
         res.json('Update complete')
       })

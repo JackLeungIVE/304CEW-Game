@@ -18,7 +18,7 @@
               <th scope="col" style="width: 21%"><u>Description</u></th>
               <th scope="col" style="width: 15%"><u>Mode</u></th> 
               <th scope="col" style="width: 9%"><u>Language</u></th>
-              <th scope="col" style="width: 12%"><u>Remark</u></th>                                        
+              <th scope="col" style="width: 12%"><u>Genre</u></th>                                        
             </font></tr>
             </thead>
             <tbody>
@@ -31,7 +31,7 @@
                   <td>{{ game.description }}</td>
                   <td>{{ game.mode }}</td>
                   <td>{{ game.language }}</td>
-                  <td>{{ game.remark }}</td>                    
+                  <td>{{ game.genre }}</td>                    
                   <td><router-link :to="{name: 'editGame', params: { id: game._id }}" class="btn btn-success btnStyle"><font size="1"><p class="center">Edit</p></font> </router-link>
                   <button class="btn btn-danger btnStyle" @click.prevent="delGame(game._id)"><font size="1"><p class="center">Delete</p></font></button></td>
                 </font></tr>

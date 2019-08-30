@@ -1,5 +1,3 @@
-/* global localStorage */
-
 import Vue from 'vue'
 import Router from 'vue-router'
 import VueAxios from 'vue-axios'
