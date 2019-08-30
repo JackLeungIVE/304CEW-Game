@@ -6,6 +6,7 @@ const Games = (req, res) => {
     res.send(games)
   }).sort({ 'platform': -1 })
 }
+//add
 const addGame = (req, res) => {
   let game = new cmodel.Game(req.body)
   game.save()
