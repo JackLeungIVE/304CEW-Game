@@ -46,7 +46,7 @@
        <div class="row">  
         <div class="col-md-12">
           <div class="form-group">
-            <label>Web Site:</label>
+            <label>Mode:</label>
             <input type="text" class="form-control" v-model="game.mode" placeholder="Enter mode">
           </div>
         </div>
