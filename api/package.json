@@ -2,7 +2,7 @@
   "name": "vue-login",
   "version": "1.0.0",
   "description": "304CEM WEB API",
-  "author": "YC TSO",
+  "author": "Jack Leung",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
