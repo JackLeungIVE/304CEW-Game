@@ -61,7 +61,7 @@ export default {
 }
 
 .table thead th { 
-  background-color: #22EE22;
+  background-color: white;
   border: 1px solid black;
 }
 
